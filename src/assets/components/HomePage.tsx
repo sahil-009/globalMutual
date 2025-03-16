@@ -81,8 +81,75 @@ export default function HomePage() {
           <img src="/hero.png" alt="AI illustration" className="w-64" />
         </div>
       </div>
+      {/* Cards Section 1*/}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-8">
+  {/* Health Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Health</h3>
+    <h2 className="text-lg font-semibold">Health Insurance in Minutes</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa non recusandae autem!</p>
+    <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Two Wheeler Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Two Wheeler</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Four Wheeler Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Four Wheeler</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Commercial Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Commercial</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Fire Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Fire</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Marine Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Marine</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Home Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Home</h3>
+    <h2 className="text-lg font-semibold">Family is ....</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+
+  {/* Travel Card */}
+  <div className="bg-white shadow-lg p-6 rounded-lg">
+    <h3 className="text-sm text-gray-600 font-bold">Travel</h3>
+    <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
+    <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
+  </div>
+</div>
+
       
-      {/* Cards Section */}
+      {/* Cards Section 2*/}
       <div className="flex flex-col lg:flex-row gap-6 justify-center px-8">
         {/* Your existing cards */}
       </div>
