@@ -81,59 +81,8 @@ export default function HomePage() {
           <img src="/hero.png" alt="AI illustration" className="w-64" />
         </div>
       </div>
-       {/* Cards Section 1*/}
-       <div className="flex flex-col lg:flex-row gap-6 justify-center px-8">
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Health</h3>
-          <h2 className="text-lg font-semibold">Health Insurance in Minutes</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa non recusandae autem!</p>
-          <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Two Wheeler</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Four wheeler</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Commercial</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Fire</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Marine</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Home</h3>
-          <h2 className="text-lg font-semibold">Family is ....</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="bg-black text-white px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-        <div className="bg-white shadow-lg p-6 rounded-lg max-w-sm">
-          <h3 className="text-sm text-gray-600 font-bold">Travel</h3>
-          <h2 className="text-lg font-semibold">Lorem ipsum dolor sit.</h2>
-          <p className="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button className="border-2 border-black px-4 py-2 rounded-lg mt-4">Learn more</button>
-        </div>
-      </div>
-      {/* Cards Section 2*/}
+      
+      {/* Cards Section */}
       <div className="flex flex-col lg:flex-row gap-6 justify-center px-8">
         {/* Your existing cards */}
       </div>
@@ -153,7 +102,6 @@ export default function HomePage() {
           ))}
         </Slider>
       </div>
-      
       
       {/* New Animated Section */}
       <motion.div 
@@ -191,105 +139,127 @@ export default function HomePage() {
           </motion.div>
         </div>
       </motion.div>
-      <footer className="bg-gray-900 text-white p-8">
-      <div className="container mx-auto">
-        {/* ACKO Information */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold">MutualGlobal</h2>
-          <p className="text-gray-400">MutualGlobal Technology & Services Private Limited</p>
-          <p className="text-gray-400">
-2nd Floor, 16/1, AVS Compound,
-80ft Road, 4th Block, Koramangala,
-Bangalore, 560034</p>
-        </div>
 
-        {/* Products and Links */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* Products */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">PRODUCTS</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Motor Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Car Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Health Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Travel Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Life Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Term Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Group Health Insurance</a></li>
-              {/* <li><a href="#" className="text-gray-400 hover:text-white">ABHA Card</a></li> */}
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">COMPANY</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">About us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Board of directors</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Media kit</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">All resources</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Articles</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Autodesk - The tech blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Partnerships</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Sitemap</a></li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">LEGAL</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Whistleblower policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Financials & disclosures</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Privacy policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Terms & conditions</a></li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">SUPPORT</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Additional Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">CAR INSURANCE</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Bike Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Health Insurance</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Group Health Insurance</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">TRAVEL INSURANCE</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">International Travel Insurance</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">LIFE INSURANCE</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Term Insurance</a></li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Footer Bottom */}
-        <div className="text-center text-gray-400">
-          <p>Listed as the "Insurance" on the Apple App Store</p>
-          <p className="mt-2">The use of images and brands are only for the purposes of publication and illustration. MutualGlobal reserves the right to take action against any third parties.</p>
+      {/* Let's Connect Section */}
+      <div className="bg-[#f5f1e9] py-12 px-8">
+        <h2 className="text-4xl font-bold text-center mb-8">Let's Connect</h2>
+        <div className="max-w-md mx-auto">
+          <form className="space-y-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">YOUR NAME</label>
+              <input type="text" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">YOUR EMAIL</label>
+              <input type="email" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">HOW CAN WE HELP?</label>
+              <textarea className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black" rows="4"></textarea>
+            </div>
+            <button type="submit" className="w-full bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">Send</button>
+          </form>
         </div>
       </div>
-    </footer>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white p-8">
+        <div className="container mx-auto">
+          {/* MutualGlobal Information */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold">MutualGlobal</h2>
+            <p className="text-gray-400">MutualGlobal Technology & Services Private Limited</p>
+            <p className="text-gray-400">
+              2nd Floor, 16/1, AVS Compound,
+              80ft Road, 4th Block, Koramangala,
+              Bangalore, 560034
+            </p>
+          </div>
+
+          {/* Products and Links */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            {/* Products */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">PRODUCTS</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Motor Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Car Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Health Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Travel Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Life Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Term Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Group Health Insurance</a></li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">COMPANY</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">About us</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Board of directors</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Media kit</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">All resources</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Articles</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Autodesk - The tech blog</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Partnerships</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Sitemap</a></li>
+              </ul>
+            </div>
+
+            {/* Legal */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">LEGAL</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Whistleblower policy</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Financials & disclosures</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Privacy policy</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Terms & conditions</a></li>
+              </ul>
+            </div>
+
+            {/* Support */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">SUPPORT</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Additional Links */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">CAR INSURANCE</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Bike Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Health Insurance</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Group Health Insurance</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-4">TRAVEL INSURANCE</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">International Travel Insurance</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-4">LIFE INSURANCE</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-400 hover:text-white">Term Insurance</a></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Footer Bottom */}
+          <div className="text-center text-gray-400">
+            <p>Listed as the "Insurance" on the Apple App Store</p>
+            <p className="mt-2">The use of images and brands are only for the purposes of publication and illustration. MutualGlobal reserves the right to take action against any third parties.</p>
+          </div>
+        </div>
+      </footer>
     </div>
-    
-    
   );
 }
